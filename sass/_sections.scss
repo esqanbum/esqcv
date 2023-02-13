@@ -103,3 +103,12 @@ section .container {
 .img-fluid {
     border-radius: 20%;
 }
+
+.sec-wrap {
+    @media (min-width: 768px){
+        display: flex;
+   justify-content: space-between;
+   height: 900px;
+   margin-top: 140px;
+    }
+}

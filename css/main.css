@@ -649,4 +649,17 @@ section .container {
 
 .img-fluid {
   border-radius: 20%;
+}
+
+@media (min-width: 768px) {
+  .sec-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 900px;
+    margin-top: 140px;
+  }
 }/*# sourceMappingURL=main.css.map */
