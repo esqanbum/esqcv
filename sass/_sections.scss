@@ -112,3 +112,48 @@ section .container {
    margin-top: 140px;
     }
 }
+
+
+
+.link {
+    animation: slideIn 0.8s;
+
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-color);
+
+    height: 56px;
+    max-width: 350px;
+    width: 100%;
+
+    background: var(--box-background);
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+
+    transition:
+        max-width 200ms,
+        background 0.5s,
+        transform 180ms ease-in-out;
+}
+
+.links-container>a>img {
+    padding-left: 34%;
+}
+
+.link:hover {
+    transform: translateY(-3px);
+    max-width: 380px;
+    background: var(--primary);
+}
+
+.link+.link {
+    margin-top: 24px;
+}
+
+.logo {
+    margin-right: 20px;
+}
